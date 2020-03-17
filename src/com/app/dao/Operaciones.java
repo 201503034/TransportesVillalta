@@ -8,6 +8,7 @@ import java.util.List;
  * @author Steven
  */
 public interface Operaciones {
+    //Metodos
     String insertar(Object obj);
     String modificar(Object obj);
     String eliminar(Object obj);
