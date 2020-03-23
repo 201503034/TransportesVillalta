@@ -9,9 +9,9 @@ import java.util.List;
  */
 public interface Operaciones {
     //Metodos
-    String insertar(Object obj);
-    String modificar(Object obj);
-    String eliminar(Object obj);
+    public String insertar(Object obj);
+    public String modificar(Object obj);
+    public String eliminar(Object obj);
     public List<?> consultar();
     public List<?> buscar(Object obj);
 }
